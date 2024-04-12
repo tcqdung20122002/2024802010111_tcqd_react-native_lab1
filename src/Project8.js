@@ -80,7 +80,7 @@ const PEOPLE = [
   {
     name: {
       title: 'Ms',
-      first: 'Maeva',
+      first: 'Maeva Tus',
       last: 'Scott',
     },
   },
