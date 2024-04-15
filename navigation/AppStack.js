@@ -10,6 +10,7 @@ import Project5 from '../src/Project5';
 import Project6 from '../src/Project6';
 import Project7 from '../src/Project7';
 import Project8 from '../src/Project8';
+import Project9 from '../src/Project9';
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigation() {
@@ -29,6 +30,7 @@ export default function AppNavigation() {
         <Stack.Screen name='Project6' component= {Project6} />
         <Stack.Screen name='Project7' component= {Project7} />
         <Stack.Screen name='Project8' component= {Project8} />
+        <Stack.Screen name='Project9' component= {Project9} />
       </Stack.Navigator>
       
   

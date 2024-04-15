@@ -120,6 +120,20 @@ const Home = () => {
         <Text style={{fontSize:20, color:'#fff'}}>Bài 8 : Long List</Text>
     </TouchableOpacity>
 
+    <TouchableOpacity style={{
+        marginTop: 20,
+        borderWidth:2,
+        height:40,
+        margin:20,
+        alignItems:'center',
+        borderRadius:5,
+        backgroundColor:'#f64e32'
+    }}
+    onPress={() => navigation.navigate('Project9')}
+    >
+        <Text style={{fontSize:20, color:'#fff'}}>Bài 9 : Caculator</Text>
+    </TouchableOpacity>
+
    </ScrollView>
   )
 }
